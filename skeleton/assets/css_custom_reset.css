@@ -24,14 +24,24 @@ h2 + .user_review {
   border-top: 1px solid black;
 }
 
-nav li {
+nav > ul > li {
   display: inline-block;
 }
 
-a * {
+a {
   display: inline-block;
-  padding: 20px, 20px, 20px, 20px;
+  padding: 20px 20px 20px 20px;
 }
+
+nav {
+  display: inline-block;
+}
+
+
+
+
+
+
 
 /* This is useful when implementing a grid system so that all image elements
 will take up 100% width of their containers */
